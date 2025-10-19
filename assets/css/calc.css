@@ -1,0 +1,144 @@
+.calculator {
+ padding: 30px 0 60px;
+}
+
+.calculator__wrapper {
+ padding: 22px 35px 45px;
+ border-radius: 25px;
+ background: #171717;
+}
+
+.calculator__logo {
+ width: 84px;
+ height: 30px;
+ object-fit: contain;
+}
+
+.calculator__form-wrapper {
+ margin-top: 5px;
+ display: grid;
+ align-items: center;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 150px;
+}
+
+.calculator__form {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.calculator__field {
+ width: 100%;
+}
+
+.calculator__field-calc {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 0;
+ border-bottom: 2px solid #fff;
+}
+
+.calculator__label {
+ color: #9F9F9F;
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 20px;
+}
+
+.calculator__dropdown-toggle {
+ background: transparent;
+}
+
+.calculator__input {
+ color: #9F9F9F;
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 20px;
+ background: transparent;
+ width: 100%;
+ border-bottom: 2px solid #fff;
+ padding: 10px 0;
+ transition: all .3s;
+}
+
+.calculator__input:focus {
+ border-bottom: 2px solid #00D2ED;
+}
+
+.calculator__submit {
+ margin-top: 10px;
+ width: fit-content;
+ border: 2px solid #00D2ED;
+}
+
+.calculator__result {
+ padding: 25px 20px;
+ border-radius: 25px;
+ background: #FFF;
+}
+
+.calculator__result-top {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.calculator__result-total {
+ color: #171717;
+ font-family: Rowdies;
+ font-size: 35px;
+ font-weight: 400;
+ line-height: 35px;
+ padding: 10px;
+ border-radius: 10px;
+ background: #00D2ED;
+}
+
+.calculator__result-bottom {
+ margin-top: 20px;
+ display: flex;
+ align-items: flex-end;
+ gap: 20px;
+ justify-content: space-between;
+}
+
+.calculator__result-list {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.calculator__result-item {
+ display: flex;
+ align-items: center;
+ gap: 5px;
+}
+
+.calculator__result-icon {
+ line-height: 0;
+}
+
+.calculator__result-icon svg {
+ width: 20px;
+ height: 20px;
+ aspect-ratio: 1/1;
+}
+
+
+.calculator__result-text {
+ color: #171717;
+ text-align: center;
+ font-family: Montserrat;
+ font-size: 15px;
+ font-weight: 600;
+ line-height: 150%;
+}
+
+
+
+
+.calculator__result-button {}
+
+.button--dark {}
